@@ -58,7 +58,7 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -107,4 +107,12 @@
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
+
+    <distributionManagement>
+        <repository>
+            <id>mvn-repo</id>
+            <url>file:../../mvn-repo/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
